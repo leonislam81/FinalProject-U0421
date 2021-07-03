@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="../Assets/CourseAble icon.png"
+      type="image/x-icon"
+    />
+    <title>Service Portfolio</title>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body class="mx-auto font-medium font-inter max-w-screen-2xl">
+    <!--Preloader-->
+    <div
+      class="fixed z-50 w-screen h-screen"
+      id="preloader"
+      style="
+        background: #fdf9f9 url('./Assets/preloader.gif') no-repeat center
+          center;
+      "
+    ></div>
+    <!--Header Area-->
+    <header
+      class="px-8 pt-4 xl:px-24 md:px-16 sm:flex sm:justify-between bg-red-50"
+    >
+      <div class="flex items-center justify-between">
+        <!--Header Logo-->
+        <div class="">
+          <a href="index.html"
+            ><h4 class="text-lg font-bold lg:text-xl">Fiber</h4></a
+          >
+        </div>
+        <!--Mobile Menu-->
+        <div class="mobileMenuBtn sm:hidden">
+          <ion-icon
+            class="text-3xl font-bold text-gray-900 cursor-pointer"
+            name="menu-outline"
+          ></ion-icon>
+        </div>
+      </div>
+      <!--Menu List for Desktop-->
+      <nav
+        class="hidden py-2 space-y-3  sm:space-x-16 lg:space-x-52 sm:space-y-0 sm:block destopMenu sm:flex"
+      >
+        <ul
+          class="space-y-2 text-gray-600  xl:text-xl sm:space-x-4 lg:space-x-10 sm:space-y-0 sm:inline-flex"
+        >
+          <li
+            class="py-2 pl-2  sm:pl-0 hover:text-indigo-900 hover:bg-gray-200 sm:hover:bg-transparent"
+          >
+            <a href="#">Prizing</a>
+          </li>
+          <li
+            class="py-2 pl-2  hover:text-indigo-900 sm:hover:bg-transparent sm:pl-0 hover:bg-gray-200"
+          >
+            <a href="#">Features</a>
+          </li>
+          <li
+            class="py-2 pl-2  hover:text-indigo-900 sm:hover:bg-transparent sm:pl-0 hover:bg-gray-200"
+          >
+            <a href="public/blog.html">Blog</a>
+          </li>
+        </ul>
+        <ul class="hidden xl:text-lg sm:space-x-4 sm:inline-flex sm:block">
+          <li class="px-4 py-2 hover:text-indigo-900">
+            <a href="#">Sign in</a>
+          </li>
+          <li
+            class="px-4 py-2 text-white bg-indigo-800 rounded  hover:bg-indigo-900"
+          >
+            <a href="public/signUp.html">Sign Up</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--Create Portfolio-->
+    <section
+      class="px-8 pb-16 space-y-10  xl:px-24 md:pt-16 md:space-y-0 md:px-16 md:flex md:flex-row-reverse md:items-center bg-red-50"
+    >
+      <!--Portfolio Image-->
+      <div
+        class="-mt-10  sm:-mt-0 md:flex-1 animate__animated animate__backInRight animate__delay-3s"
+      >
+        <img src="./Assets/hero-Illustration.png" alt="Image" />
+      </div>
+      <!--Create Portfolio Text-->
+      <div
+        class=" animate__delay-3s md:flex-1 md:m-0 animate__animated animate__bounceInDown"
+      >
+        <div
+          class="hidden md:items-center md:mb-6 md:space-x-2 md:flex md:block"
+        >
+          <span><img src="./Assets/star.svg" alt="Star" /></span>
+          <span><img src="./Assets/star.svg" alt="Star" /></span>
+          <span><img src="./Assets/star.svg" alt="Star" /></span>
+          <span><img src="./Assets/star.svg" alt="Star" /></span>
+          <span><img src="./Assets/star.svg" alt="Star" /></span>
+          <p>Rated 4.8/5 (243 reviews)</p>
+        </div>
+        <h1 class="heading-1">Create your portfolio in minutes.</h1>
+        <p class="pr-24 my-4 md:pr-0 pera">
+          With fiber, you can setup your own personal portfolio in minutes with
+          dozens of premade, beautiful templates.
+        </p>
+        <div
+          class="space-y-3 md:space-y-0 md:space-x-6 md:flex md:items-center"
+        >
+          <a
+            href="#"
+            class="block py-4 text-base font-semibold text-center text-white bg-indigo-800 rounded  xl:text-lg md:px-6 hover:bg-indigo-900"
+            >Strat Free Trail</a
+          >
+          <a
+            href="#"
+            class="block text-base font-semibold text-center text-indigo-900 underline  xl:text-lg"
+          >
+            View Examples</a
+          >
+        </div>
+        <!--Checkmark text-->
+        <div
+          class="mt-6 space-y-3  xl:space-x-4 md:space-y-0 md:space-x-2 md:text-sm md:flex"
+        >
+          <div class="flex items-center space-x-3">
+            <span
+              ><img src="./Assets/Checkmark.svg" alt="Checkmark icon"
+            /></span>
+            <p class="pera xl:text-lg">No Credit Card Required</p>
+          </div>
+          <div class="flex items-center space-x-3">
+            <span
+              ><img src="./Assets/Checkmark.svg" alt="Checkmark icon"
+            /></span>
+            <p class="pera xl:text-lg">100 Free Templates</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Why Fiber-->
+    <section class="px-8 py-16 bg-white xl:px-24 md:px-16">
+      <h4 class="mb-2 heading-4">Why Fiber?</h4>
+      <h2 class="pr-24 heading-2">
+        A good portfolio means good <br />
+        employability.
+      </h2>
+      <div class="mt-12 space-y-10 md:space-y-0 md:space-x-4 md:flex">
+        <!--Box-1-->
+        <div
+          class="space-y-3 animate__animated animate__fadeIn animate__delay-1s"
+        >
+          <img src="./Assets/time.svg" alt="icon" />
+          <h4 class="text-lg font-bold xl:text-xl">Build in minutes</h4>
+          <p class="pr-12 text-gray-600 xl:text-lg">
+            With a selection of premade templates, you can build out a portfolio
+            in less than 10 minutes.
+          </p>
+        </div>
+        <!--Box-2-->
+        <div
+          class="space-y-3 animate__animated animate__fadeIn animate__delay-2s"
+        >
+          <img src="./Assets/code.svg" alt="icon" />
+          <h4 class="text-lg font-bold xl:text-lg">Add custom css</h4>
+          <p class="pr-12 text-gray-600 xl:text-lg">
+            Customize your personal portfolio even more with the ability to add
+            your own custom css style.
+          </p>
+        </div>
+        <!--Box-3-->
+        <div
+          class="space-y-3 animate__animated animate__fadeIn animate__delay-3s"
+        >
+          <img src="./Assets/allSizes.svg" alt="icon" />
+          <h4 class="text-lg font-bold xl:text-lg">Responsive</h4>
+          <p class="pr-12 text-gray-600 xl:text-lg">
+            All fiber templates are full responsive to ensure the experience is
+            seemless across all devices.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--Trail Portfolio-->
+    <section class="px-8 pb-12 bg-white xl:px-24 md:px-16">
+      <div
+        class="px-10 pt-12 bg-indigo-800 rounded  md:flex md:items-center md:space-x-8"
+      >
+        <div class="space-y-4 md:flex-1">
+          <h2
+            class="pr-24 text-3xl font-bold leading-snug tracking-wide text-white "
+          >
+            Diversity your portfolio
+          </h2>
+          <p class="text-gray-100 pera">
+            Create an even more impressive portfolio by creating case studies
+            for your projects. Simply follow our step-by-step guide.
+          </p>
+          <a href="#"
+            ><button
+              class="w-full py-4 mt-4 mb-16 text-lg font-semibold text-center text-indigo-800 bg-white rounded  md:px-6 md:w-1/2"
+            >
+              Start Free Trail
+            </button></a
+          >
+        </div>
+        <div class="md:flex-1">
+          <img src="./Assets/Page Image.png" alt="Image" />
+        </div>
+      </div>
+    </section>
+    <!--Team Portfolio-->
+    <section
+      class="px-8 py-16 space-y-12 bg-white  xl:px-24 md:px-16 md:space-y-0 md:flex md:space-x-8"
+    >
+      <!--Portfolio-1-->
+      <div class="px-6 py-8 border rounded">
+        <div class="flex items-center space-x-3">
+          <img src="./Assets/User Avatar.svg" alt="Image" />
+          <div>
+            <h6 class="text-base font-semibold text-indigo-900">
+              Sarah Andrews
+            </h6>
+            <p>$100k in revenue</p>
+          </div>
+        </div>
+        <p class="mt-4 text-gray-900 2xl:text-lg xl:text-base pera">
+          Setting up my portfolio with Fiber took no more than 10 minutes. Since
+          then, my portfolio has attracted a lot of clients and made me more
+          than $100k.
+        </p>
+        <a
+          href="#"
+          class="block w-full py-4 mt-8 text-base font-semibold text-center text-indigo-800 border rounded  2xl:text-lg"
+          >View Sarah's Portfolio</a
+        >
+      </div>
+      <!--Portfolio-2-->
+      <div class="px-6 py-8 border rounded">
+        <div class="flex items-center space-x-3">
+          <img src="./Assets/User Avatar 2.svg" alt="Image" />
+          <div>
+            <h6 class="text-base font-semibold text-indigo-900">
+              Mathew Higgins
+            </h6>
+            <p>$20k in revenue</p>
+          </div>
+        </div>
+        <p class="mt-4 text-gray-900 2xl:text-lg xl:text-base pera">
+          I have been getting a lot of leads ever since I used Fiber's premade
+          templates, now I just need to work on my case studies and I will be
+          ready to go!
+        </p>
+        <a
+          class="block w-full py-4 mt-8 text-base font-semibold text-center text-indigo-800 border rounded  2xl:text-lg"
+          href="#"
+          >View Mathew's Portfolio</a
+        >
+      </div>
+      <!--Portfolio-3-->
+      <div class="px-6 py-8 border rounded">
+        <div class="flex items-center space-x-3">
+          <img src="./Assets/User Avatar 32.svg" alt="Image" />
+          <div>
+            <h6 class="text-base font-semibold text-indigo-900">Janice Dave</h6>
+            <p>$30k in revenue</p>
+          </div>
+        </div>
+        <p class="mt-4 text-gray-900 2xl:text-lg xl:text-base pera">
+          I only just started freelancing this year and I have already made more
+          than I ever made in my full-time job. The templates are just so
+          amazing.
+        </p>
+        <a
+          class="block w-full py-4 mt-8 text-base font-semibold text-center text-indigo-800 border rounded  2xl:text-lg"
+          href="#"
+          >View Janice's Portfolio</a
+        >
+      </div>
+    </section>
+    <!--Footer Area-->
+    <footer class="px-8 pt-16 pb-8 xl:px-24 md:px-16 bg-red-50">
+      <div
+        class="space-y-8  sm:space-y-0 sm:grid md:gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6"
+      >
+        <!--Footer Logo with text-->
+        <div class="sm:col-span-2">
+          <a href="index.html"
+            ><h4 class="text-lg font-bold lg:text-xl">Fiber</h4></a
+          >
+          <p class="my-3 2xl:text-lg xl:text-base pera">
+            With Fiber, you can setup your own personal portfolio in minutes
+            with dozens of premade, beautiful templates.
+          </p>
+          <p class="pera xl:text-base 2xl:text-lg">
+            Made with
+            <span
+              ><ion-icon class="text-gray-600" name="heart-outline"></ion-icon
+            ></span>
+            in the Bangladesh.
+          </p>
+        </div>
+        <!--Footer Nav-1-->
+        <div>
+          <h4 class="text-black heading-4">Sitemap</h4>
+          <nav>
+            <ul class="mt-4 space-y-2 xl:text-base 2xl:text-lg pera">
+              <li><a href="index.html">Homepage</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Features</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!--Footer Nav-2-->
+        <div>
+          <h4 class="text-black heading-4">Resources</h4>
+          <nav>
+            <ul class="mt-4 space-y-2 pera xl:text-base 2xl:text-lg">
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!--Footer Nav-3-->
+        <div>
+          <h4 class="text-black heading-4">Company</h4>
+          <nav>
+            <ul class="mt-4 space-y-2 pera xl:text-base 2xl:text-lg">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Customers</a></li>
+              <li><a href="./public/blog.html">Blog</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!--Footer Nav-4-->
+        <div>
+          <h4 class="text-black heading-4">Portfolio</h4>
+          <nav>
+            <ul class="mt-4 space-y-2 pera xl:text-base 2xl:text-lg">
+              <li><a href="#">Sarah Andrews</a></li>
+              <li><a href="#">Mathew Higgins</a></li>
+              <li><a href="#">Janice Dave</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="mt-12 text-center xl:text-lg 2xl:text-xl">
+        <p class="copyRight">
+          Mentored by
+          <a
+            class="text-indigo-800"
+            href="https://courseable.edu.bd"
+            target="_blank"
+            >CourseAble</a
+          >. Coded by
+          <a
+            class="text-indigo-800"
+            href="https://www.leonislam.xyz"
+            target="_blank"
+            >Leon Islam</a
+          >.
+        </p>
+      </div>
+    </footer>
+    <script src="javascript.js"></script>
+  </body>
+</html>

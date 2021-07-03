@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .pera {
+    @apply text-base text-gray-600 xl:text-xl;
+  }
+  .heading-1 {
+    @apply mr-32 text-3xl font-bold leading-normal xl:text-5xl md:mr-12;
+  }
+  .heading-4 {
+    @apply text-xl font-semibold text-indigo-800;
+  }
+  .heading-2 {
+    @apply text-3xl font-bold leading-normal tracking-wide xl:text-4xl;
+  }
+  .blogHeading-2 {
+    @apply pr-24 mb-4 text-2xl font-bold lg:text-3xl lg:pr-12;
+  }
+}
